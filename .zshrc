@@ -119,6 +119,8 @@ prompt pure
 zstyle :prompt:pure:prompt:success color green
 
 ## platform specific
+# prepend homebrew path
+path=('/opt/homebrew/bin' $path)
 
 
 export PATH
