@@ -17,5 +17,8 @@ do
 done
 
 # platform specific 
+echo '[[ -v GH_GH_PAT ]] && export GITHUB_TOKEN=$GH_GH_PAT' >> ~/.zshrc
+
+sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
 
 echo done

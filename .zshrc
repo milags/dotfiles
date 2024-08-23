@@ -119,6 +119,6 @@ prompt pure
 zstyle :prompt:pure:prompt:success color green
 
 ## platform specific
-
+eval "$(rbenv init -)" 
 
 export PATH
