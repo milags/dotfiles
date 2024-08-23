@@ -13,7 +13,7 @@ git clone https://github.com/lukechilds/zsh-nvm "$HOME/.oh-my-zsh/custom/plugins
 # create symlinks in home directory
 for dotfile in .zshrc .vimrc .gitconfig
 do
-	ln -s $PWD/$dotfile $HOME/$dotfile
+	ln -fs $PWD/$dotfile $HOME/$dotfile
 done
 
 # platform specific 
