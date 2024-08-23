@@ -110,3 +110,7 @@ prompt pure
 
 zstyle :prompt:pure:prompt:success color green
 
+## platform specific
+
+
+export PATH
