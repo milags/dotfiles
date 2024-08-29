@@ -73,6 +73,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 plugins=(
 zsh-nvm
 git
+1password
 vi-mode
 )
 

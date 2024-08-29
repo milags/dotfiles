@@ -21,5 +21,7 @@ done
 # install homebrew (interactive)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+brew install 1password-cli
+
 
 echo done
